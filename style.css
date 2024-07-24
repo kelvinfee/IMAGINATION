@@ -1,0 +1,89 @@
+:root{
+    --cor-de-fundo: rgba(0, 0, 0, 0.965);
+    --branco-principal: white;
+    --button: rgb(102, 0, 255);
+    --cinza-principal: rgb(200, 200, 200);
+}
+
+body{
+   
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.principal{
+    align-items: flex-start;
+    text-align: center;
+    display: flex;
+    grid-template-columns: 50% 50%; 
+    background-image: url(scenes-sky-with-starlight-background.png);
+    background-repeat: no-repeat;
+    background-position: 0.1em;
+    background-size: 140%;
+    margin: -0.5em;
+}
+
+.imagem__principal{
+    width: 30%;
+    padding-right: 10em;
+}
+
+.container__titulo{
+    border-radius: 30px;
+    padding: 1em;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 200%;
+    color: var(--cinza-principal);
+    list-style-type: none;
+    border: 1px solid;
+    margin-bottom: 1em;
+    margin: 1 1em;
+}
+
+.container__titulo a{
+    text-decoration: none;
+    
+}
+
+.container__aviso{
+    font-family: serif;
+    font-weight: 600;
+    font-size: 1.66em;
+    padding-top: 50px;
+}
+
+.container__caixa{
+    margin-right: 9em;
+    margin-top:1em;
+    padding-right:160px;
+}
+
+.secundario{
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 12em 0 2em 0;
+    padding: 0 1em 0 10em;
+}
+
+.container__titulo__secundario{
+    font-family: monospace;
+    font-size: 260%;
+    font-style: italic;
+}
+
+.container__titulo__secundario a{
+    text-decoration: none;
+    color: var(--button);
+}
+
+.container__texto{
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.secundario__imagem{
+    width: 100%;
+}
