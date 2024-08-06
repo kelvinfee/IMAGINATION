@@ -18,13 +18,13 @@ body{
     grid-template-columns: 50% 50%; 
     background-image: url(scenes-sky-with-starlight-background.png);
     background-repeat: no-repeat;
-    background-position: 0.1em;
-    background-size: 140%;
+    background-position: -4em;
+    background-size: 300%;
     margin: -0.5em;
 }
 
 .imagem__principal{
-    width: 30%;
+    width: 50%;
     padding-left: 10em;
 }
 
@@ -50,14 +50,13 @@ body{
     font-family: serif;
     font-weight: 600;
     font-size: 1.66em;
-    padding-top: 50px;
+    padding-top: 60px;
     font-style: oblique;
 }
 
 .container__caixa{
-    margin-right: 2em;
-    margin-top:1em;
-    padding-right:160px;
+    padding: 1em 160px 50px 0;
+    margin: 3em 2em 0 0;
 }
 
 .secundario{
@@ -102,4 +101,8 @@ body{
 
 .secundario__imagem{
     width: 100%;
+}
+
+.container__texto{
+    font-size: 22px;
 }
