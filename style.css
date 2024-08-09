@@ -18,13 +18,13 @@ body{
     grid-template-columns: 50% 50%; 
     background-image: url(scenes-sky-with-starlight-background.png);
     background-repeat: no-repeat;
-    background-position: -4em;
-    background-size: 300%;
+    background-position: 0.1em;
+    background-size: 1000%;
     margin: -0.5em;
 }
 
 .imagem__principal{
-    width: 50%;
+    width: 30%;
     padding-left: 10em;
 }
 
@@ -50,13 +50,14 @@ body{
     font-family: serif;
     font-weight: 600;
     font-size: 1.66em;
-    padding-top: 60px;
+    padding-top: 50px;
     font-style: oblique;
 }
 
 .container__caixa{
-    padding: 1em 160px 50px 0;
-    margin: 3em 2em 0 0;
+    margin-right: 2em;
+    margin-top: 1em;
+    padding-right: 160px;
 }
 
 .secundario{
@@ -64,8 +65,8 @@ body{
     text-align: center;
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 6em 0 2em 0;
-    padding: 0 1em 0 10em;
+    margin: 17em 0 2em 0;
+    padding:0 1em 0 10em;
 }
 
 .container__titulo__secundario{
@@ -103,6 +104,65 @@ body{
     width: 100%;
 }
 
-.container__texto{
-    font-size: 22px;
+.terciario{
+    padding-top: 6em;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    margin: 12em 0 0.1em 0;
 }
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 0.5;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 3em;
+}
+
+.rodape__texto {
+    margin: 3em 0;
+    color: var(--cinza-principal);
+    font-size: 20px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 4em 2em;
+    padding-top: 40px;
+}
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+
+.lista__link a:active{
+    color: purple;
+}
+
+.imagem__rodape{
+    width: 5em;
+}
+
+.seta{
+    width: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.jogo{
+    text-align: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: double;
+    font-style: italic;
+    font-size: 800;
+    padding-top: 3em;
+}
+
